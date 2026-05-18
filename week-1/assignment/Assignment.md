@@ -6,7 +6,7 @@ Welcome to your Week 1 assignment! Here, you will apply all that you have learnt
 
 ## Part 1: NumPy & Linear Algebra – Gram-Schmidt Orthonormalization
 
-Gram-Schmidt Prthonormalization should be familiar from MA110, and even otherwise is a basic algorithm. To give you some PTSD we shall implement this in numpy(honestly just implementing since you are already familiar with it).
+Gram-Schmidt Orthonormalization should be familiar from MA110, and even otherwise is a basic algorithm. To give you some PTSD we shall implement this in numpy(honestly just implementing since you are already familiar with it).
 
 ### Your Task
 
@@ -29,7 +29,7 @@ $$e_k = \frac{u_k}{\|u_k\|}$$
 
 ## Part 2: Pandas & Visualization – The Submission Delay Dataset
 
-We have provided a course assignment submission dataset containing roughly 100 anonymous features. To simulate real data engineering workflows (and to force you to use your scripting tools instead of opening it in Microsoft Excel), the file is packaged as a Python binary format: `submission_data.pkl`.
+We have provided a course assignment submission dataset containing roughly 100 anonymous features(named x_*). To simulate real data engineering workflows (and to force you to use your scripting tools instead of opening it in Microsoft Excel), the file is packaged as a Python binary format: `submission_data.pkl`.
 
 ### Phase 1: Data Preparation & Exploration
 
@@ -83,6 +83,7 @@ In your final summary, provide a clear, unambiguous response to the following:
 * **Deconstruct the Metrics:** Based on the output of Scikit-Learn's `classification_report`, explain exactly what **Accuracy**, **Precision**, **Recall**, **F1-Score** and the **AUC-ROC** represent in the context of this specific problem. (e.g., What does a low recall score for Class 1 practically mean for tracking late submissions?)
 * **Model Selection:** Which model performed the best overall? Why do you think that specific architecture succeeded over the others on this dataset?
 * **Practical Application:** Imagine this model is deployed by an operations team at an organization or educational institution. Explain what practical purpose this model serves. 
+* **More Features?:** As a test try implementing the models with all features and see if it gives you something better.
 
 ---
 
