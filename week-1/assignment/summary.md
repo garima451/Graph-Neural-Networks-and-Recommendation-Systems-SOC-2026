@@ -41,6 +41,9 @@ Logistic Regression improved because adding more features provided additional gl
 On the other hand, Random Forest performance decreased slightly after including all features because tree-based models are sensitive to noisy, irrelevant, or weakly informative features. Random Forest works by creating many decision trees using random subsets of features. When too many features are added, some trees may start learning unimportant or noisy patterns instead of meaningful disengagement behavior. This can reduce the model’s generalization ability and weaken the strong local decision boundaries it previously formed using the more important features. In highly imbalanced datasets, additional irrelevant features can also make minority class patterns more diluted and harder to isolate consistently across trees. As a result, the recall and F1-score decreased slightly compared to the earlier Random Forest model, even though the overall accuracy remained high.
 This experiment shows that simply adding more features does not always improve performance. Feature quality and relevance are more important than feature quantity, especially for tree-based models handling imbalanced behavioral datasets.
 Part-4 : NumPy in Physics – Simulating Quantum Wavefunctions
-
-
+Higher energy means larger k which means cosine wave oscillates more rapidly over the same spatial distance leading to a higher oscillation frequency. 
+A rapidly decaying wavefunction means:
+The probability of finding the electron decreases extremely quickly inside the barrier.
+The electron is very unlikely to penetrate deeply into the high-resistance region.
+Part-5 : 
 
