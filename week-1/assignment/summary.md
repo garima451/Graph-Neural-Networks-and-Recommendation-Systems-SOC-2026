@@ -385,25 +385,6 @@ This flexibility makes Random Forest particularly suitable for behavioral predic
 
 ---
 
-## Real-World Operational Use
-
-Institutions and operational teams can use these predictions for:
-
-- early intervention,
-- personalized support,
-- counseling,
-- workload management,
-- engagement improvement strategies,
-- and productivity monitoring.
-
-Such interventions can occur before disengagement becomes severe enough to negatively impact:
-
-- academic performance,
-- organizational efficiency,
-- or long-term participation outcomes.
-
-This transforms predictive modeling from a purely analytical task into a proactive decision-support system.
-
 
 # More Features
 
@@ -439,32 +420,6 @@ Earlier, with fewer features:
 - the model lacked sufficient information to distinguish late submissions properly,
 - causing it to predict mostly the majority class.
 
-After including all features:
-
-- the model gained access to additional behavioral indicators,
-- including patterns related to:
-  - disengagement,
-  - attendance,
-  - workload,
-  - and interaction behavior.
-
-This slightly improved minority-class detection capability.
-
----
-
-## Evidence of Improvement
-
-The improvement can be observed through:
-
-- increased AUC-ROC score,
-- non-zero Recall,
-- and non-zero F1-score values.
-
-However:
-
-- Recall remains extremely low,
-- indicating that the model still struggles significantly with class imbalance.
-
 Although the model improved slightly, it still fails to identify most late-submission cases reliably.
 
 ---
@@ -486,52 +441,9 @@ When too many features are added:
 
 This weakens the model’s ability to generalize effectively.
 
----
-
-## Impact on Decision Boundaries
-
-Earlier, with fewer high-quality features:
-
-- Random Forest formed stronger local decision boundaries.
-
-After adding many additional features:
-
-- minority-class patterns became more diluted,
-- especially within the highly imbalanced dataset.
-
-As a result:
-
-- minority-class samples became harder to isolate consistently across trees.
-
-This caused:
-
-- lower Recall,
-- reduced F1-score,
-- and slightly weaker classification performance overall.
-
 Even though overall accuracy remained high, the model became less effective at detecting late submissions.
 
 ---
-
-## Key Insight from the Experiment
-
-This experiment demonstrates an important machine learning principle:
-
-> More features do not always improve model performance.
-
-In many cases:
-
-- feature quality,
-- feature relevance,
-- and signal clarity
-
-are more important than simply increasing feature quantity.
-
-This is especially true for:
-
-- tree-based ensemble models,
-- highly imbalanced datasets,
-- and behavioral prediction problems where noisy features can dilute meaningful patterns.
 # Part 4 - NumPy in Physics: Simulating Quantum Wavefunctions
 
 ### Files
@@ -552,8 +464,6 @@ As \(k\) increases:
 - more oscillations occur within the same spatial distance,
 - and the wavefunction exhibits a higher oscillation frequency.
 
-This behavior reflects the direct relationship between particle energy and wave-like momentum characteristics in quantum mechanics.
-
 ---
 
 ## Barrier Penetration Interpretation
@@ -563,7 +473,7 @@ A rapidly decaying wavefunction inside the potential barrier indicates that:
 - the probability of finding the electron decreases very quickly inside the barrier region,
 - and the electron is highly unlikely to penetrate deeply into the high-resistance region.
 
-This demonstrates the quantum mechanical tunneling behavior predicted by the Time Independent Schrodinger Equation (TISE), where the wavefunction exponentially decays in energetically forbidden regions.
+---
 
 # Bonus Part - Numerical Quantum Mechanics: The Finite Difference Method
 
