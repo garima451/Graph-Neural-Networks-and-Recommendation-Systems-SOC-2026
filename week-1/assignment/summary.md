@@ -2,21 +2,21 @@
 
 ---
 
-# Part 1 — NumPy & Linear Algebra: Gram-Schmidt Orthonormalization
+# Part 1 - NumPy & Linear Algebra: Gram-Schmidt Orthonormalization
 
 ### File
 - [View Python File](./gram_schmidt.py)
 
 ---
 
-# Part 2 — Pandas & Visualization: The Submission Delay Dataset
+# Part 2 - Pandas & Visualization: The Submission Delay Dataset
 
 ### File
 - [View Python Notebook](./data_exploration_and_modeling.ipynb)
 
 ---
 
-# Phase 2 — Feature Correlations & Heatmaps
+# Phase 2 - Feature Correlations & Heatmaps
 
 ## Summary
 
@@ -56,7 +56,7 @@ This ultimately leads to:
 
 ---
 
-# Phase 3 — Dimensionality Reduction (UMAP vs. t-SNE)
+# Phase 3 - Dimensionality Reduction (UMAP vs. t-SNE)
 
 ## Why UMAP Preserves Global Structure Better
 
@@ -98,7 +98,7 @@ As a result:
 - The geometric organization becomes more meaningful.
 - Natural separation between groups improves.
 
-# Part 3 — Predictive Modeling & Evaluation
+# Part 3 - Predictive Modeling & Evaluation
 
 # Deconstructing the Metrics
 
@@ -515,7 +515,7 @@ This is especially true for:
 - tree-based ensemble models,
 - highly imbalanced datasets,
 - and behavioral prediction problems where noisy features can dilute meaningful patterns.
-# Part 4 — NumPy in Physics: Simulating Quantum Wavefunctions
+# Part 4 - NumPy in Physics: Simulating Quantum Wavefunctions
 
 ### Files
 - [View Python File](./tise.py)
@@ -548,5 +548,45 @@ A rapidly decaying wavefunction inside the potential barrier indicates that:
 
 This demonstrates the quantum mechanical tunneling behavior predicted by the Time Independent Schrödinger Equation (TISE), where the wavefunction exponentially decays in energetically forbidden regions.
 
-Part-5 : 
+# Bonus Part - Numerical Quantum Mechanics: The Finite Difference Method
+
+### Files
+- [View Python File](./bonus.py)
+
+### Visualization
+![Quantum Harmonic Oscillator Plot](./bonusplot.png)
+
+---
+
+# Numerical Output
+
+```text
+Lowest three energy levels:
+
+E0 = 1.581013
+E1 = 4.742789
+E2 = 7.904062
+```
+
+---
+
+# Comparison with Theoretical Ground State Energy
+
+As per all the info provided, the theoretical ground state energy is: E_0 = 1.58113883. The numerically computed ground state energy is: E_0 = 1.581013. The numerical result is extremely close to the theoretical prediction. The small difference occurs because the continuous Schrodinger equation was approximated using a finite spatial grid in the finite difference method. 
+
+---
+
+# Relationship Between Quantum Number and Nodes
+
+The first three wavefunctions exhibit the expected node structure:
+
+- psi_0 has 0 nodes
+- psi_1 has 1 node
+- psi_2 has 2 nodes
+
+Therefore, the exact mathematical relationship is:
+
+Number of nodes = n
+where:
+n is the quantum state index. This is a fundamental property of quantum harmonic oscillator eigenfunctions.
 
