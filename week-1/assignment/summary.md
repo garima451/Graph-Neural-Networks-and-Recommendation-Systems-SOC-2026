@@ -16,4 +16,5 @@ I believe the UMAP plot with 100 features looks to have better and clean cluster
 Since, more features directly imply more information, hence the embedding algorithms had more information to organize the data, the clusters look more detailed, more meaningful geometrically and more naturally separated. 
 
 Part 3: Predictive Modeling & Evaluation
+Deconstruct the Metrics
 
